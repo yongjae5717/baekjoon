@@ -2,6 +2,7 @@ import sys
 from collections import deque
 
 
+# use BFS
 def BFS(array_x, s, e, val):
     d = [(-1, 0), (1, 0), (0, -1), (0, 1)]
     q = deque()
