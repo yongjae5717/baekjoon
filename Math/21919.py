@@ -1,8 +1,10 @@
 import sys, math
+# use queue
 from collections import deque
 input = sys.stdin.readline
 
 
+# prime function: return True or False ( bool )
 def is_prime(num):
     if num == 1:
         return False
